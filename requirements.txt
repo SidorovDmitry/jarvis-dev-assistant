@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+httpx
+aiogram==3.*
+edge-tts
+openai-whisper
+pydantic
