@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS hypotheses (
+    id SERIAL PRIMARY KEY,
+    query VARCHAR(500) NOT NULL,
+    result TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS memory_notes (
+    id SERIAL PRIMARY KEY,
+    text TEXT NOT NULL
+);
