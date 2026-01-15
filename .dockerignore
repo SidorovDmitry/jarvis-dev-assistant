@@ -1,0 +1,34 @@
+# Ignore Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+
+# Local configs
+.env
+.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio temp files
+temp_*.wav
+tts_*.mp3
+
+# Development files
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Docker
+docker-compose.yml

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio temp files (voice assistant)
+temp_*.wav
+tts_*.mp3
+
+# Docker
+*.pid
+
+# Env
+.env
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
+.whisper/
